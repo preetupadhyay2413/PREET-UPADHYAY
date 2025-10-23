@@ -1,2 +1,98 @@
-# PREET-UPADHYAY
-This is my personal blogspot website.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preet Upadhyay | Personal Blog</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Arial', sans-serif; background-color: #f4f4f9; color: #333; }
+
+        /* Header Section */
+        header { 
+            background: linear-gradient(90deg, #1f4037, #99f2c8); 
+            color: white; 
+            padding: 2rem 0; 
+            text-align: center; 
+        }
+        header h1 { font-size: 2.5rem; font-weight: bold; }
+        header p { font-size: 1.2rem; margin-top: 0.5rem; }
+
+        /* Navigation */
+        nav { background-color: #333; display: flex; justify-content: center; padding: 1rem 0; }
+        nav a { color: white; text-decoration: none; margin: 0 1.5rem; font-size: 1rem; font-weight: bold; transition: color 0.3s; }
+        nav a:hover { color: #99f2c8; }
+
+        /* Hero Section */
+        .hero {
+            text-align: center; 
+            padding: 3rem 1rem; 
+            background: url('https://via.placeholder.com/1500x500') no-repeat center/cover; 
+            color: white; 
+        }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; max-width: 650px; margin: auto; line-height: 1.6; }
+
+        /* Section Cards */
+        .sections { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; padding: 2rem; }
+        .section-card {
+            background-color: white; 
+            width: 300px; 
+            padding: 1.5rem; 
+            border-radius: 8px; 
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+            transition: transform 0.3s;
+        }
+        .section-card:hover { transform: translateY(-10px); }
+        .section-card h3 { margin-bottom: 1rem; font-size: 1.5rem; color: #1f4037; }
+        .section-card p { font-size: 1rem; color: #555; }
+
+        /* Footer */
+        footer { background-color: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .sections { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Preet Upadhyay</h1>
+        <p>Economics Graduate | University of Allahabad |
+
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Welcome to My Personal Blog</h1>
+        <p>Hi, I am <strong>PREET UPADHYAY</strong>. I graduated in Economics from the University of Allahabad and proudly served as an NCC Cadet. This blog is my space to share insights on economics, personal growth, life lessons, and NCC experiences.</p>
+    </section>
+
+    <section class="sections" id="about">
+        <div class="section-card">
+            <h3>About Me</h3>
+            <p>Explore my journey – from studying Economics to experiencing discipline and leadership as an NCC Cadet.</p>
+        </div>
+        <div class="section-card">
+            <h3>Blog Posts</h3>
+            <p>Read articles on Economics, NCC life, motivation, discipline, and personal development.</p>
+        </div>
+        <div class="section-card">
+            <h3>Contact Me</h3>
+            <p>Want to connect? Reach out for discussions, collaborations or suggestions.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Preet Upadhyay | Personal Blog</p>
+    </footer>
+</body>
+</html>
+
